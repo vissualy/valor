@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PARIS GRAY-shop</title>
+    <style>
+        body{
+            background: #1f4037;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+        }
+        .first{
+            width: 200px;
+            height: 185px;
+            margin: 50px;
+            text-align: center;
+        }
+        img{
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            border-radius: 20px;
+        }
+        button{
+            width: 100px;
+            height: 30px;
+            border: 1px solid green;
+            border-radius: 10px;
+            color: green;
+        }
+        button:hover{
+            color: white;
+            background-color: green;
+        }
+        button:active{
+            opacity: 0.4;
+        }
+        .second{
+            width: 200px;
+            height: 185px;
+            text-align: center;
+            margin: 50px;
+        }
+        .parent{
+            display: flex;
+        }
+        .third{
+            text-align: center;
+            margin: 50px;
+        }
+        .fouth{
+            text-align: center;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="first">
+            <img src="rimmellasting.png" alt="lipstick">
+            <p>rimel lasting lipstick: 20 usd</p>
+            <button>purchace</button>
+        </div>
+        <div class="second">
+            <img src="esteelauder.png" alt="lipstick">
+            <p>estee lauder: 20 usd</p>
+            <button>purchase</button>
+        </div>
+        <div class="third">
+            <img src="macfoundation.png" alt="foundation">
+            <p>mac foundatio: 50 usd</p>
+            <button>purchase</button>
+        </div>
+        <div class="fouth">
+            <img src="diorforeverfoundation.png" alt="foundation">
+            <p>diorforever foundation: 100 usd</p>
+            <button>purchace</button>
+        </div>
+    </div>
+</body>
+</html>
